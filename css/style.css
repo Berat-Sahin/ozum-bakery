@@ -171,6 +171,25 @@ em { color: var(--terracotta); font-style: italic; }
 }
 .empty-state strong { display: block; color: var(--ink); font-family: var(--font-head); font-size: 1.3rem; margin-bottom: .4rem; }
 
+/* ---------- SSS ---------- */
+.faq-inner { max-width: 760px; }
+.faq-list { display: flex; flex-direction: column; gap: .8rem; }
+.faq-item {
+  background: var(--white); border-radius: 14px; box-shadow: var(--shadow);
+  padding: .2rem 1.3rem;
+}
+.faq-item summary {
+  cursor: pointer; font-weight: 600; padding: 1rem 2rem 1rem 0; list-style: none; position: relative;
+}
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::after {
+  content: "+"; position: absolute; right: 0; top: 50%; transform: translateY(-50%);
+  width: 26px; height: 26px; border-radius: 50%; background: var(--cream-2); color: var(--terracotta);
+  display: grid; place-items: center; font-weight: 600; transition: transform .2s;
+}
+.faq-item[open] summary::after { content: "–"; }
+.faq-item p { margin: 0 0 1.1rem; color: var(--ink-soft); }
+
 /* ---------- İletişim ---------- */
 .contact { background: var(--ink); color: var(--cream); }
 .contact .eyebrow { color: var(--gold); }

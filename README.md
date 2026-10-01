@@ -13,7 +13,18 @@ js/main.js          Verileri sayfaya basan script
 data/products.js    Ürün listesi
 data/references.js  Referans / müşteri yorumu listesi
 assets/img/         Ürün ve referans görselleri
+robots.txt          Arama motoru ve AI tarayıcı izinleri
+sitemap.xml         Site haritası (yeni sayfa eklenince güncelleyin)
 ```
+
+## SEO notları
+
+- `index.html` içindeki iki JSON-LD bloğu (Bakery ve FAQPage) işletme bilgisini
+  Google, Bing ve AI tarayıcılarına yapısal olarak sunar. Telefon, çalışma saati
+  veya şehir değişirse bu blokları da güncelleyin.
+- SSS bölümündeki soru/cevaplar FAQPage şemasıyla birebir aynı tutulmalıdır.
+- Özel alan adına geçince `canonical`, `og:url`, JSON-LD içindeki URL'ler,
+  `robots.txt` ve `sitemap.xml` adreslerini yeni alan adıyla değiştirin.
 
 ## İlk kurulum
 
