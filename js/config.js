@@ -7,7 +7,7 @@ const SITE_CONFIG = {
   tagline: "Butik Pasta & Tatlı Atölyesi",
 
   // WhatsApp numarası: ülke kodu ile, boşluk/+ olmadan (örn: 905321234567)
-  whatsappNumber: "905000000000",
+  whatsappNumber: "905417426053",
 
   // WhatsApp'a tıklandığında otomatik gelecek mesaj
   whatsappMessage: "Merhaba, Özüm Bakery ürünleri hakkında bilgi almak istiyorum.",
